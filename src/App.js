@@ -30,7 +30,7 @@ function App() {
 			<div className="container">
 				{isLoggedIn ? (
 					<div className='exit'>
-						<p className=''>Вы вошли в систему!</p>
+						<p className='exit_text'>Вы вошли в систему!</p>
 						<button className='exit_button' onClick={handleLogout}>Выйти</button>
 					</div>
 				) : (
